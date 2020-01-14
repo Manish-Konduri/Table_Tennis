@@ -13,7 +13,7 @@ import java.util.Enumeration;
 import java.util.Random;
 
 
-@WebServlet(name="Players",urlPatterns = "/players")
+@WebServlet(name="Players",urlPatterns = "/Players")
 public class PlayerServlet extends HttpServlet {
     public PlayerServlet()
     {
@@ -23,7 +23,7 @@ public class PlayerServlet extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse resp) throws ServletException, IOException {
         DataBase db = new DataBase();
         String playerName = request.getParameter("Name");
-        String teamName = request.getParameter("TeamName");
+        String teamName = "";
         String phone = request.getParameter("Phone");
         String email = request.getParameter("Email");
         String password = request.getParameter("pwd");
