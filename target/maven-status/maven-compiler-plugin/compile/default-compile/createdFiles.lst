@@ -1,3 +1,4 @@
-com/tabletennis/PlayerServlet.class
 com/tabletennis/DataBase.class
+com/tabletennis/PlayerServlet.class
 com/tabletennis/LoginPlayer.class
+com/tabletennis/InsertCard.class

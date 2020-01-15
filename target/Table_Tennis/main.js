@@ -37,7 +37,7 @@ function respo(info) {
         window.onscroll = function() {
             if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight) {
                 // you're at the bottom of the page
-                console.log("ggfxhjk")
+
                 respo(info)
 
             }
